@@ -34,6 +34,7 @@ class myColors:
         b_cyan = "\x1b[96m"
         b_white = "\x1b[97m"
         b_lgreen = "\x1b[38;2;146;255;12m"
+        b_violet = "\x1b[38;2;221;200;255m"
     # bright background colors
         bb_black = "\x1b[100m"
         bb_red = "\x1b[101m"
@@ -63,6 +64,7 @@ class myColors:
         ob_cyan = "\x1b[1;96m"
         ob_white = "\x1b[1;97m"
         ob_lgreen = "\x1b[1;38;2;146;255;12m"
+        ob_violet = "\x1b[1;38;2;221;200;255m"
     # underline normal text
         un_red = "\x1b[1;4;31m"
         un_green = "\x1b[1;4;32m"
@@ -124,3 +126,8 @@ class myColors:
 #print(myColors.b_lgreen + "Does RGB work?" + myColors.c_reset)
 
 #print("{}This could be fun.{}".format(myColors.n_magenta, myColors.c_reset))
+print(myColors.n_violet + "Does this work?" + myColors.ob_white + "Normal?")
+print(myColors.b_violet + "Does this work?" + myColors.ob_white + "Bright?")
+print(myColors.on_violet + "Does this work?" + myColors.ob_white + "Normal Bold?")
+print(myColors.ob_violet + "Does this work?" + myColors.ob_white + "Bright Bold?")
+
