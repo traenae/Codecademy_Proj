@@ -121,13 +121,13 @@ class myColors:
         
         bk_lime_green = "\033[48;2;146;255;12m"
         
-#print(myColors.n_violet + "Testing colors out" + myColors.c_reset)
 
-#print(myColors.b_lgreen + "Does RGB work?" + myColors.c_reset)
+# These statements show one method of using the color statements
+#print(myColors.n_violet + "Does this work?" + myColors.ob_white + "Normal?")
+#print(myColors.b_violet + "Does this work?" + myColors.ob_white + "Bright?")
+#print(myColors.on_violet + "Does this work?" + myColors.ob_white + "Normal Bold?")
+#print(myColors.ob_violet + "Does this work?" + myColors.ob_white + "Bright Bold?")
 
-#print("{}This could be fun.{}".format(myColors.n_magenta, myColors.c_reset))
-print(myColors.n_violet + "Does this work?" + myColors.ob_white + "Normal?")
-print(myColors.b_violet + "Does this work?" + myColors.ob_white + "Bright?")
-print(myColors.on_violet + "Does this work?" + myColors.ob_white + "Normal Bold?")
-print(myColors.ob_violet + "Does this work?" + myColors.ob_white + "Bright Bold?")
-
+#This statement shows an alternate method. Use the one you find preferrable.
+#print("{}This could be fun.{} Normal? {}".format(myColors.n_violet, myColors.n_white, myColors.c_reset))
+#print(myColors.c_reset)
